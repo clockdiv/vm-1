@@ -70,6 +70,8 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-linux
+
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
