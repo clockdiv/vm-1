@@ -1,0 +1,13 @@
+
+// vm-1
+.home h1 {
+    font-size: #{$base-font-size * 3};
+    margin-top: 2em;
+}
+.home p {
+    margin-top: 3em;
+}
+.home  ul.footnotes{
+    font-size: #{$small-font-size * 0.85};
+    list-style-type: none;
+}

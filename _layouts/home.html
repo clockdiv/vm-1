@@ -1,9 +1,45 @@
 ---
 layout: articles
 heading: 'VM-1'
-subheading: 'A Raspberry_Pi based video mixer'
+subheading: 'A Raspberry Pi based video mixer'
 banner: 'default'
 sidebar: []
 ---
 
-{{ content }}
+<div class="home">
+    <h1>Welcome to the VM-1.</h1>
+        <p>The VM-1 is a Raspberry Pi based<sup>1</sup> video mixer with features like:</p>
+        <ul>
+            <li>Simultaneous and syncronous playback of two separate videos<sup>2</sup> on both HDMI outs of the RPi</li>
+            <li>Simultaneous playback of a video and ultra low latency playback of a HDMI input signal<sup>3</sup> on both HDMI outs of the RPi</li>
+            <li>All video signals handled in 1080p (Full-HD)</li>
+            <li>Switching between videos works currently via keyboard. A costum interface with an extra display is planned.</li>
+            <li>Fade-to-black is implemented. Crossfades soon to come.</li>
+        </ul>
+        <ul class="footnotes">
+            <li><sup>1</sup> Currently supported Raspberry Pi 4, an update to Raspberry Pi 5 will follow.</li>
+            <li><sup>2</sup> Videos need to be encoded in h264. We're working on even better performance with videos encoded in h265.</li>
+            <li><sup>3</sup> HDMI-Input via the <a href="https://www.waveshare.com/hdmi-to-csi-adapter.htm"> Waveshare HDMI To CSI Adapter</a>.</li>
+        </ul>
+        <p>Plenty more features are planned:</p>
+        <ul>
+            <li>Video and audio-sequencer</li>
+            <li>Video effects like Chroma Key</li>
+            <li>Shaders</li>
+            <li>Syncing the videos of multiple Raspberry Pis via network</li>
+            <li>Audio playback</li>
+            <li>Record video from HDMI-Input</li>
+            <li>Video Loopstation</li>
+            <li>USB-Camera, IP-Camera, Streaming from YouTube etc.</li>
+            <li>Trigger and control the VM-1 via OSC and MIDI</li>
+            <li>Basic Video editing (set in- and out-Point)</li>
+            <li>Homographic Projection Mapping</li>
+            <li>An app to control the VM-1</li>
+        </ul>
+    <h1>Dev Log</h1>
+    <p>
+        Curious how the video features on the Raspberry Pi work or what we are currently working on? Welcome to our Blog.
+    </p>
+    {{ content }}
+</div>
+

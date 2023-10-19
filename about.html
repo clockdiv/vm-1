@@ -1,12 +1,33 @@
 ---
 layout: about
 title: About
+banner: 'assets/images/banners/20231019_VM-1_2.jpg'
+hidden:
+    
 ---
-
-<h2>About</h2>
-
+<h2>The idea for the VM-1</h2>
 <p>
-The VM-1 is a Video Mixer based on the Raspberry Pi 4 (and 5 to come). 
-It's capable of smoothly playing back two different videos (or four if you're overlaying or crossfading) 
-as well as a camera signal (via HDMI Input) on both video outputs of the Raspberry Pi.
+    In the work with students at the <a href="https://hfs-berlin.de">"Ernst Busch" Academy of Dramatic Arts in Berlin</a>,
+    as well as in the work with the independent theater scene, we see a constant and ever 
+    growing need for accessible video technology. This mostly involves the usage of 
+    pre-produced video material, often mixed with live cameras. Multiple projectors and 
+    large screens are mostley used as output media, on which the different video sources are shown.
+</p>
+<p>
+    Software for live video (OBS-Studio, MadMapper, Isadora, TouchDesigner, vvvv, ...) 
+    is often too complex for these "simple" applications, do not quite meet the needs or has a high price.
+</p>
+<p>
+    Out of this need the idea for the Video Mixer "VM-1", based on a Raspberry Pi, was born at the 
+    <a href="labor.hfs-berlin.de">Labor für Digitalität</a> within the "Ernst Busch" Academy of Dramatic Arts. 
+    Together with software developer Nils Zweiling and an initial research funded by 
+    <a href="https://stiftung-hochschullehre.de">Stiftung Innovation in der Hochschullehre</a>, the VM-1 will be further 
+    developed into a usable device.
+</p>
+
+<h2>Technical details</h2>
+<p>
+    We checked many ressources on how to properly play back and capture video on the Raspberry Pi. The best solution for 
+    this needs seem to be <a href="http://gstreamer.freedesktop.org">GStreamer</a>, which Nils compiled with the respective libraries for Raspberry Pi. The software for
+    the VM-1 itself is written in Python.
 </p>

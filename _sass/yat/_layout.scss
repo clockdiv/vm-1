@@ -189,7 +189,8 @@ html {
  * Site footer
  */
 .site-footer {
-  @include relative-font-size(1.0);
+  // @include relative-font-size(1.0);
+  @include relative-font-size(0.75);
   color: $footer-text-color;
   background-color: $footer-background-color;
   text-align: left;
@@ -323,6 +324,9 @@ html {
     color: #777;
     word-break: break-word;
     overflow-wrap: break-word;
+  }
+  .post-excerpt .read_more{
+    @include relative-font-size(1.65);
   }
 
   .post-tags .post-tag {
@@ -607,7 +611,8 @@ html {
 
   .page-banner-inner {
     @include vertical-center(relative);
-
+    top: 75%; // vm-1
+    
     color: $banner-text-color;
     padding: 10px 5px;
     text-shadow: 1px 1px 2px #33333355;
@@ -617,12 +622,14 @@ html {
 
       > :nth-child(1) {
         // @include relative-font-size(3.9);
-        @include relative-font-size(8.9);  //vm-1
+        @include relative-font-size(8);  //vm-1
         letter-spacing: -1px;
-        margin-bottom: 0.1em;
+        // margin-bottom: 0.1em;
+        margin-bottom: -0.4em;
         // font-weight: normal;  
         font-weight: 100;  //vm-1
         transition: 0.2s all;
+        line-height: #{$base-line-height};
 
         @include media-query($on-palm) {
           @include relative-font-size(1.975);
@@ -633,7 +640,7 @@ html {
         font-weight: lighter;
         margin-bottom: 0.8em;
         transition: 0.2s all;
-        @include relative-font-size(3); //vm-1
+        @include relative-font-size(1.5); //vm-1
         
         @include media-query($on-palm) {
           @include relative-font-size(1.175);
@@ -787,3 +794,4 @@ html {
   background-color: #e3e3e3e3;
   vertical-align: baseline;
 }
+

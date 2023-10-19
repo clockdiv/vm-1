@@ -98,7 +98,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight * 1.5;
+  // font-weight: $base-font-weight * 1.5;
+  font-weight: $base-font-weight;
 }
 
 /**
@@ -106,7 +107,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $brand-color;
-  text-decoration: none;
+  // text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
     text-decoration: underline;

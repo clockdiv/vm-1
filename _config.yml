@@ -26,7 +26,7 @@
 
 title: VM-1 Video Mixer One
 email:
-author: Nils Zweiling, Julian Jungel
+author: 'Nils Zweiling, Julian Jungel / Lab for digital media at "Ernst Busch" Academy of Dramatic Arts in Berlin'
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,7 +40,8 @@ author: Nils Zweiling, Julian Jungel
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "VM-1 (cleft) 2013-{currentYear} {author}"
+# copyright: "VM-1 (cleft) 2023-{currentYear} {author}"
+copyright: "VM-1 (cleft) 2023 {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   VM-1 is a Video Mixer based on the Raspberry Pi 4 (and 5 to come). 
