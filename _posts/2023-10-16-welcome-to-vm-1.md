@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "We introduce: the VM-1"
-subtitle: A Raspberry Pi based Video Mixer
+subtitle: A Raspberry_Pi based Video Mixer
 categories: []
 banner:
-  image: "assets/images/vm-1-logo-tryouts.jpeg"
+  image: "assets/images/banners/20231019_VM-1_2.jpg"
   opacity: 0.618
   background: "#000"
   height: "100vh"
