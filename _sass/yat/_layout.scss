@@ -313,7 +313,8 @@ html {
 
   .post-link {
     @include relative-font-size(1.65);
-    font-weight: $base-font-weight * 1.5;
+    // font-weight: $base-font-weight * 1.5;
+    font-weight: 100;
     color: #333;
   }
 
@@ -613,10 +614,12 @@ html {
       margin: 0;
 
       > :nth-child(1) {
-        @include relative-font-size(3.9);
+        // @include relative-font-size(3.9);
+        @include relative-font-size(8.9);  //vm-1
         letter-spacing: -1px;
         margin-bottom: 0.1em;
-        font-weight: normal;
+        // font-weight: normal;  
+        font-weight: 100;  //vm-1
         transition: 0.2s all;
 
         @include media-query($on-palm) {
@@ -628,7 +631,8 @@ html {
         font-weight: lighter;
         margin-bottom: 0.8em;
         transition: 0.2s all;
-
+        @include relative-font-size(3); //vm-1
+        
         @include media-query($on-palm) {
           @include relative-font-size(1.175);
         }

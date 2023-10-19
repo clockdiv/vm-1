@@ -1,4 +1,4 @@
-home:
-  heading: "VM-1"
-  subheading: "Video Mixer One"
-  banner: "assets/images/banners/vm-1-mockup.jpg"
+# home:
+#   heading: "VM-1"
+#   subheading: "A Raspberry_Pi based video mixer"
+#   banner: "/assets/images/banners/20231019_VM-1.jpg"
