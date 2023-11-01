@@ -16,9 +16,8 @@
       {% assign lang = post.lang %}
       {%- include functions.html func='get_reading_time' -%}
       {% assign reading_time = return %}
-      {%- include functions.html func='get_article_excerpt' -%}
-      {% assign excerptParts = return | split: "<!-- excerpt-start -->" %} 
-      {% assign excerpt = excerptParts[1] %}
+      {% assign excerptParts = post.excerpt | split: "<!--- excerpt-start -->" %} 
+      {% assign excerpt = excerptParts[1] | strip_newlines | truncatewords: 50 %}
       {%- assign post_url = post.url | relative_url -%}
 
       <h2 class="post-title">
