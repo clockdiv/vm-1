@@ -180,6 +180,8 @@ yat:
 
 # Excerpt size setting
 # excerpt_size: 350
+excerpt_separator: <!-- excerpt-end -->
+
 
 # Pagination setting
 # paginate: 5
