@@ -17,7 +17,8 @@
       {%- include functions.html func='get_reading_time' -%}
       {% assign reading_time = return %}
       {%- include functions.html func='get_article_excerpt' -%}
-      {% assign excerpt = return | split: "<!-- excerpt-start -->" | excerptParts[1] | strip_newlines %}
+      {% assign excerptParts = return | split: "<!-- excerpt-start -->" %} 
+      {% assign excerpt = excerptParts[1] | strip_newlines %}
       {%- assign post_url = post.url | relative_url -%}
 
       <h2 class="post-title">
