@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Devlog 001 / Kickoff"
+title: "Kickoff"
 subtitle: How video playback and camera input works on the Raspberry Pi
 categories: []
 banner:
