@@ -39,4 +39,5 @@ We’re going to share our findings from experiments with the gst-launch-1.0 com
 
 ### Resources
 [Waveshare HDMI to CSI Adaptor](https://www.waveshare.com/hdmi-to-csi-adapter.htm)
+
 [libcamera (Raspberry Pi 4 Docs)](https://www.raspberrypi.com/documentation/computers/camera_software.html#libcamera-and-libcamera-apps)
