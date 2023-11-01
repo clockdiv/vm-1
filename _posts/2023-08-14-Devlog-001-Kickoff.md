@@ -37,8 +37,6 @@ Further research showed that GStreamer supports both hardware accelerated video 
 
 We’re going to share our findings from experiments with the gst-launch-1.0 command-line tool and how that evolved into a first Python application in the next episode of this devlog.
 
-### HDMI to CSI adaptor
-[Waveshare Shop](https://www.waveshare.com/hdmi-to-csi-adapter.htm)
-
-### libcamera
-[Raspberry Pi 4 Docs](https://www.raspberrypi.com/documentation/computers/camera_software.html#libcamera-and-libcamera-apps)
+### Resources
+[Waveshare HDMI to CSI Adaptor](https://www.waveshare.com/hdmi-to-csi-adapter.htm)
+[libcamera (Raspberry Pi 4 Docs)](https://www.raspberrypi.com/documentation/computers/camera_software.html#libcamera-and-libcamera-apps)
