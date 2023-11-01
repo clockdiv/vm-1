@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kickoff Meeting"
+title: "Kickoff"
 subtitle: How video playback and camera input works on the Raspberry Pi
 categories: []
 banner:
