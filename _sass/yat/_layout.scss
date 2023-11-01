@@ -582,7 +582,7 @@ html {
   position: relative;
   height: $banner-height;
   background-color: $banner-background;
-  //transition: height 0.2s;
+  transition: height 0.2s;
 
   .page-banner-img {
     position: absolute;
@@ -592,7 +592,7 @@ html {
 
     & > *:first-child {
       @include center-image;
-      //transition: 0.1s all ease-in-out;
+      transition: 0.1s all ease-in-out;
     }
 
     & > video {
@@ -628,7 +628,7 @@ html {
         margin-bottom: -0.4em;
         // font-weight: normal;  
         font-weight: 100;  //vm-1
-        //transition: 0.2s all;
+        transition: 0.2s all;
         line-height: #{$base-line-height};
 
         @include media-query($on-palm) {
